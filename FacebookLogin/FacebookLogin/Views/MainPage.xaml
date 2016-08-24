@@ -12,7 +12,7 @@
            TextColor="Black"/>
 
     <Button Text="Login with Facebook"
-            TextColor="White" 
+            TextColor="White"
             BackgroundColor="#01579B"
             Font="Bold"
             FontSize="26"
