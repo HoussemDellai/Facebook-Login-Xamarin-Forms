@@ -10,7 +10,7 @@ namespace FacebookLogin
         /// Make sure to get a new ClientId from:
         /// https://developers.facebook.com/apps/
         /// </summary>
-        private string ClientId = "165942640479284";//"1570192756563503";
+        private string ClientId = "165942640479284";
 
         public FacebookProfilePage()
         {
