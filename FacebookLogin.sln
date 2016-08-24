@@ -15,6 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookLogin.Windows", "Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookLogin", "FacebookLogin\FacebookLogin\FacebookLogin.csproj", "{8FD69B2A-5DF2-4DB8-9CCC-E017B2E0192B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuspec", "Nuspec", "{3D4634CE-9B23-4567-93B4-C9C0783ADB9D}"
+	ProjectSection(SolutionItems) = preProject
+		Plugin.Facebook.nuspec = Plugin.Facebook.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
