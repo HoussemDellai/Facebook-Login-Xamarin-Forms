@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using FacebookLogin.Models;
 using FacebookLogin.ViewModels;
 using Xamarin.Forms;
@@ -17,7 +13,7 @@ namespace FacebookLogin.Views
         /// Make sure to get a new ClientId from:
         /// https://developers.facebook.com/apps/
         /// </summary>
-        private string ClientId = "165942640479284";//"1570192756563503";
+        private string ClientId = "165942640479284";
 
         public FacebookProfileCsPage()
         {
