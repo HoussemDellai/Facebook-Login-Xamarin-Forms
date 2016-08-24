@@ -8,7 +8,7 @@
   <StackLayout Orientation="Vertical">
 
     <Label Text="Login with Facebook API"
-           FontSize="60"
+           FontSize="66"
            TextColor="Black"/>
 
     <Button Text="Login with Facebook"

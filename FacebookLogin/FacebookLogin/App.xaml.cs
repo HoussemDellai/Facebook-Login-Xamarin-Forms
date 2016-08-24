@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using FacebookLogin.Views;
+﻿using FacebookLogin.Views;
 using Xamarin.Forms;
 
 namespace FacebookLogin
@@ -13,10 +9,14 @@ namespace FacebookLogin
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainCsPage())
+            MainPage = new NavigationPage(new MainPage())
             {
                 Title = "Facebook Login"
             };
+            //MainPage = new NavigationPage(new MainCsPage())
+            //{
+            //    Title = "Facebook Login"
+            //};
         }
 
         protected override void OnStart()
